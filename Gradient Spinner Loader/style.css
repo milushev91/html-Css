@@ -1,32 +1,31 @@
-/* Fullscreen center */
+/* Center everything */
 body {
   margin: 0;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #050816;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Gradient spinner */
 .loader {
   width: 280px;
-  height:280px;
+  height: 280px;
   border-radius: 50%;
   border: 6px solid transparent;
-  border-top-color: transparent;
-  background:
-    conic-gradient(
-      from 0deg,
+  background: conic-gradient(
       #ee7752,
       #e73c7e,
       #23a6d5,
       #23d5ab,
       #ee7752
-    );
-  -webkit-mask:
-    radial-gradient(farthest-side, transparent 60%, #000 61%);
-  mask:
-    radial-gradient(farthest-side, transparent 60%, #000 61%);
+  );
+  -webkit-mask: radial-gradient(farthest-side, transparent 60%, #000 61%);
+  mask: radial-gradient(farthest-side, transparent 60%, #000 61%);
   animation: spin 1s linear infinite;
 }
 
@@ -35,4 +34,19 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Loading text styling */
+.loading-text {
+  margin-top: 20px;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  opacity: 0.8;
+  animation: fade 1.5s ease-in-out infinite;
+}
+
+/* Subtle fade animation */
+@keyframes fade {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
 }
