@@ -1,0 +1,38 @@
+/* Fullscreen center */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Gradient spinner */
+.loader {
+  width: 280px;
+  height:280px;
+  border-radius: 50%;
+  border: 6px solid transparent;
+  border-top-color: transparent;
+  background:
+    conic-gradient(
+      from 0deg,
+      #ee7752,
+      #e73c7e,
+      #23a6d5,
+      #23d5ab,
+      #ee7752
+    );
+  -webkit-mask:
+    radial-gradient(farthest-side, transparent 60%, #000 61%);
+  mask:
+    radial-gradient(farthest-side, transparent 60%, #000 61%);
+  animation: spin 1s linear infinite;
+}
+
+/* Rotation animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
