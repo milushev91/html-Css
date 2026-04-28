@@ -1,0 +1,39 @@
+Beginner HTML & CSS Project: Animated Loading Screen
+Create a clean and modern animated loading screen using only HTML and CSS in this beginner friendly web development project. This tutorial is perfect if you're learning front end basics and want to build something visually satisfying, simple, and practical for real websites.
+In this video, you’ll learn how to:
+•	Build a smooth gradient spinner animation
+•	Center elements using modern CSS layout techniques
+•	Add a subtle “Loading…” text animation
+•	Use CSS keyframes to create looping motion
+•	Design a minimal, aesthetic loading screen from scratch
+This project is great for beginners, portfolio practice, or anyone who wants to add a polished loading animation to their website. No JavaScript required - just clean HTML and CSS.
+Tags:
+•	beginner html css project
+•	html css tutorial
+•	animated loading screen css
+•	css loader animation
+•	gradient spinner loader
+•	html css animation tutorial
+•	loading screen html css
+•	simple css animation
+•	beginner web design project
+•	aesthetic loading animation
+•	css keyframes tutorial
+•	silent coding tutorial
+•	satisfying coding video
+•	front end development for beginners
+•	html css project ideas
+•	modern web design tutorial
+•	css gradient animation
+•	silentbuilds
+•	loading animation css
+•	website loading screen
+Hashtags
+#html #css #webdesign #frontend #coding #programming #tutorial #SilentBuilds
+Music
+•  “Nimbus” – Eveningland
+•  “Lofi Study” – FASSounds
+•  “Floating Home” – Brian Bolger
+•  “Soft Feeling” – Cheel
+•  “Dreams” – Joakim Karud
+
