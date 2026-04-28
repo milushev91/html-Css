@@ -1,0 +1,39 @@
+Beginner HTML & CSS Project: Animated Gradient Landing Page
+Learn how to build a beautiful animated gradient landing page using only HTML and CSS. This beginner friendly project is perfect if you're just starting your web development journey and want to create something modern, aesthetic, and visually impressive.
+In this video, I walk through the full build step by step - no frameworks, no complicated tools, just clean code and smooth animations. You’ll learn how to:
+•	Create a full screen animated gradient background
+•	Style a simple landing page layout
+•	Add buttons with hover effects
+•	Use CSS animations to bring your design to life
+•	Build a clean, modern UI using beginner friendly techniques
+Whether you're practicing HTML/CSS or looking for a project to add to your portfolio, this landing page is a great place to start.
+Tags:
+•  beginner html css project
+•  html css tutorial
+•  animated gradient background css
+•  gradient landing page tutorial
+•  html css beginner project
+•  aesthetic web design tutorial
+•  css animation tutorial
+•  landing page html css
+•  simple web design project
+•  html css for beginners
+•  silent coding tutorial
+•  satisfying coding video
+•  modern website design
+•  css gradient animation
+•  web development for beginners
+•  front end development tutorial
+•  html css project ideas
+•  silentbuilds
+•  aesthetic website tutorial
+•  how to build a landing page
+#html #css #webdesign #frontend #coding #programming #tutorial #SilentBuilds
+Music:
+•  “Daylight” – A Himitsu
+•  “Nimbus” – Eveningland
+•  “Ocean View” – Patrick Patrikios
+•  “Dreams” – Joakim Karud
+•  “Glow” – Anno Domini Beats
+•  “Clouds” – Joakim Karud
+•  “Ethereal” – Density & Time
