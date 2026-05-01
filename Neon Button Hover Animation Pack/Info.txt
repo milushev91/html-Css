@@ -1,0 +1,46 @@
+“Neon Button Hover Animation — HTML & CSS Beginner Project”
+
+Learn how to create neon button hover animations using only HTML & CSS.
+This beginner‑friendly project is perfect for anyone starting with front‑end development and wanting to build modern, aesthetic UI elements.
+
+In this silent coding tutorial, we build 5 different button effects:
+• Glow Effect
+• Border Animation
+• Slide Underline
+• Gradient Wipe
+• Pulse Effect
+
+No JavaScript needed — just clean, simple CSS animations using transitions and keyframes.
+
+This project is part of the HTML & CSS Beginner Projects playlist, where we build satisfying, modern components step‑by‑step in silence with chill music.
+
+If you enjoy aesthetic coding videos, consider subscribing to SilentBuilds for more beginner‑friendly front‑end projects.
+
+#html #css #htmlcss #cssanimation #hoveranimation #neonbuttons #webdesign #frontend #codingtutorial #beginnerfriendly #htmlcsstutorial #csshover #aestheticcoding #silentcoding #silentbuilds #codingproject #csskeyframes #webdevelopment #learncoding #satisfyingcoding
+beginner html css project, html css tutorial, neon button animation, css hover effects, css animation tutorial, neon buttons css, html css animation, css hover animation, glow button css, border animation css, gradient wipe button, pulse effect css, aesthetic css project, silent coding tutorial, satisfying coding video, html css beginner project, css keyframes tutorial, modern web design tutorial, frontend development for beginners, html css project ideas, silentbuilds, css neon effect, hover animation css, web design for beginners
+
+“Apex” — Density & Time
+Futuristic, clean, ambient.
+Perfect for neon UI animations.
+
+🎧 2. “Signals” — SYBS
+Minimal, digital, modern.
+Feels like a UI soundscape.
+
+🎧 3. “Floating Home” — Brian Bolger
+Chill electronic with a soft pulse.
+Great for smooth CSS transitions.
+
+🎧 4. “Night Run Away” — An Jone
+Synthwave / cyber aesthetic.
+Matches your neon gradients perfectly.
+
+🎧 5. “Nimbus” — Eveningland
+Calm, atmospheric, non‑distracting.
+Ideal for silent coding.
+
+🎧 6. “Crescent Moon” — Purrple Cat
+Soft lo‑fi with a dreamy vibe.
+Perfect for aesthetic builds.
+
+🎧 7. “Dreams” — Bensound (YouTube version)
