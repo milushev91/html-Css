@@ -1,0 +1,97 @@
+/* General layout */
+body {
+  background: radial-gradient(circle at center, #0a0a0f 0%, #050509 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Base button style */
+.btn {
+  position: relative;
+  padding: 14px 32px;
+  font-size: 1rem;
+  color: #fff;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+/* 1️⃣ Glow Effect */
+.glow {
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 10px #00ffff;
+}
+.glow:hover {
+  box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+}
+
+/* 2️⃣ Border Animation */
+.border {
+  border: 2px solid transparent;
+}
+.border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid #ff00ff;
+  transform: scale(0);
+  transition: transform 0.3s ease;
+}
+.border:hover::before {
+  transform: scale(1);
+}
+
+/* 3️⃣ Slide Underline */
+.underline {
+  overflow: hidden;
+}
+.underline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: #a020f0;
+  transition: width 0.3s ease;
+}
+.underline:hover::after {
+  width: 100%;
+}
+
+/* 4️⃣ Gradient Wipe */
+.gradient {
+  background: linear-gradient(90deg, #ff00ff, #00ffff);
+  background-size: 200%;
+  border-radius: 4px;
+  transition: background-position 0.5s ease;
+}
+.gradient:hover {
+  background-position: right;
+}
+
+/* 5️⃣ Pulse Effect */
+.pulse {
+  border: 2px solid #ffcc00;
+  box-shadow: 0 0 10px #ffcc00;
+}
+.pulse:hover {
+  animation: pulseGlow 1s infinite;
+}
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 10px #ffcc00; }
+  50% { box-shadow: 0 0 25px #ffcc00; }
+  100% { box-shadow: 0 0 10px #ffcc00; }
+  }
