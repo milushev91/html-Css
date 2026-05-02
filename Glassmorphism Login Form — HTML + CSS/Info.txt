@@ -1,0 +1,24 @@
+Glassmorphism Login Form - HTML & CSS Tutorial for Beginners (Aesthetic UI Design)
+In this silent coding tutorial, we build a clean and aesthetic Glassmorphism Login Form using only HTML and CSS. This beginner‑friendly project focuses on modern UI design, smooth animations, floating labels, and a frosted‑glass effect using backdrop‑filter.
+
+Perfect for anyone learning front‑end development or looking for aesthetic UI inspiration.
+
+✨ What you’ll learn:
+• Semantic HTML structure  
+• Glassmorphism UI styling  
+• Floating label inputs  
+• Smooth focus + hover animations  
+• Gradient backgrounds and neon accents  
+• Responsive layout basics  
+
+This project is great for portfolios, practice, or adding modern UI components to your websites.
+
+🎨 Tools used: HTML, CSS  
+🎧 SilentBuilds - aesthetic, silent coding for beginners  
+
+#html #css #glassmorphism #loginform #uidesign #frontend #webdevelopment #silentcoding
+
+glassmorphism login form, html css login form, glass login form html css, login page html css, aesthetic login form, modern ui login form, html css tutorial, html css beginner project, frontend beginner project, glassmorphism ui design, frosted glass effect css, backdrop filter css, floating label input css, aesthetic web design, silent coding tutorial, html css project for beginners, responsive login form html css, ui design html css, css animations tutorial, neon ui design, aesthetic coding tutorial, web development for beginners, html css form design, css gradient background, clean ui design, minimal login form, modern web design tutorial, html css aesthetic project, silentbuilds, silent coding, silent coding aesthetic, html css silent tutorial, aesthetic coding video
+
+
+
