@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pure CSS Image Slider with Arrows</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #111;
+    }
+
+    .slider {
+        width: 80%;
+        height: 400px;
+        margin: 50px auto;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    /* Slides container */
+    .slides {
+        display: flex;
+        width: 400%;
+        height: 100%;
+        transition: 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+    }
+
+    .slide {
+        width: 25%;
+        height: 100%;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Hide radio buttons */
+    input[name="slider"] {
+        display: none;
+    }
+
+    /* --- ARROW LOGIC --- */
+    .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 50px;
+        color: white;
+        cursor: pointer;
+        padding: 20px;
+        z-index: 10;
+        opacity: 0.7;
+        transition: 0.3s;
+        display: none; /* Hide all arrows by default */
+        text-shadow: 0 0 10px rgba(0,0,0,0.5);
+        user-select: none;
+    }
+
+    .arrow:hover {
+        opacity: 1;
+        background: rgba(255,255,255,0.1);
+    }
+
+    .left { left: 0; }
+    .right { right: 0; }
+
+    /* Logic: Show specific arrow based on which radio is checked */
+    
+    /* Show "Next" arrows */
+    #slide1:checked ~ .next-2,
+    #slide2:checked ~ .next-3,
+    #slide3:checked ~ .next-4,
+    #slide4:checked ~ .next-1 { display: block; }
+
+    /* Show "Prev" arrows */
+    #slide1:checked ~ .prev-4,
+    #slide2:checked ~ .prev-1,
+    #slide3:checked ~ .prev-2,
+    #slide4:checked ~ .prev-3 { display: block; }
+
+    /* --- SLIDE MOVEMENT --- */
+    #slide1:checked ~ .slides { margin-left: 0; }
+    #slide2:checked ~ .slides { margin-left: -100%; }
+    #slide3:checked ~ .slides { margin-left: -200%; }
+    #slide4:checked ~ .slides { margin-left: -300%; }
+
+    /* --- NAVIGATION DOTS --- */
+    .navigation {
+        position: absolute;
+        width: 100%;
+        bottom: 15px;
+        display: flex;
+        justify-content: center;
+        z-index: 15;
+    }
+
+    .navigation label {
+        width: 12px;
+        height: 12px;
+        border: 2px solid #fff;
+        margin: 5px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    /* Highlight dot for current slide */
+    #slide1:checked ~ .navigation label[for="slide1"],
+    #slide2:checked ~ .navigation label[for="slide2"],
+    #slide3:checked ~ .navigation label[for="slide3"],
+    #slide4:checked ~ .navigation label[for="slide4"] {
+        background: #fff;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="slider">
+
+    <!-- Radio buttons -->
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+
+    <!-- Prev Arrows (pointing to previous slide) -->
+    <label for="slide4" class="arrow left prev-4">‹</label>
+    <label for="slide1" class="arrow left prev-1">‹</label>
+    <label for="slide2" class="arrow left prev-2">‹</label>
+    <label for="slide3" class="arrow left prev-3">‹</label>
+
+    <!-- Next Arrows (pointing to next slide) -->
+    <label for="slide2" class="arrow right next-2">›</label>
+    <label for="slide3" class="arrow right next-3">›</label>
+    <label for="slide4" class="arrow right next-4">›</label>
+    <label for="slide1" class="arrow right next-1">›</label>
+
+    <!-- Slides -->
+    <div class="slides">
+        <div class="slide"><img src="https://picsum.photos/id/1015/800/400" alt="1"></div>
+        <div class="slide"><img src="https://picsum.photos/id/1016/800/400" alt="2"></div>
+        <div class="slide"><img src="https://picsum.photos/id/1018/800/400" alt="3"></div>
+        <div class="slide"><img src="https://picsum.photos/id/1020/800/400" alt="4"></div>
+    </div>
+
+    <!-- Navigation dots -->
+    <div class="navigation">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+    </div>
+
+</div>
+
+</body>
+</html>
