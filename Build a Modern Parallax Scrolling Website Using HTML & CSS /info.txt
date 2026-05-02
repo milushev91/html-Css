@@ -1,0 +1,18 @@
+Build a Modern Parallax Scrolling Website Using HTML & CSS
+Build a modern parallax scrolling website using only HTML and CSS. In this silent coding session, I create a clean, responsive layout featuring three smooth parallax sections: Intro, Middle, and Final. This project is perfect for beginners learning front‑end development or anyone looking for aesthetic website design inspiration.
+
+You’ll learn how to structure a webpage, apply fixed‑background parallax effects, and make the layout mobile‑friendly with simple CSS. No JavaScript required — just pure HTML and CSS.
+
+This build is ideal for portfolios, landing pages, creative projects, and anyone who wants to learn modern web design techniques in a calm, relaxing format.
+
+What you’ll learn:  
+• How to create a parallax scrolling effect with CSS
+• How to build a responsive layout
+• How to style full‑screen background sections
+• How to structure clean HTML for modern websites
+• How to design aesthetic scrolling pages
+
+#️⃣ Hashtags  
+#HTML #CSS #WebDesign #ParallaxScrolling #FrontendDevelopment #ResponsiveDesign #Coding #SilentCoding #AestheticWebsite #WebDevelopment #LearnCoding #HTMLCSS #WebsiteTutorial
+
+HTML, CSS, parallax scrolling, parallax website, parallax effect, HTML CSS tutorial, web design tutorial, responsive website, modern website design, aesthetic website, silent coding, coding with music, front end development, beginner web development, HTML CSS project, parallax scrolling effect, website build, landing page design, scrolling animation, web development for beginners, HTML tutorial, CSS tutorial, modern UI design
