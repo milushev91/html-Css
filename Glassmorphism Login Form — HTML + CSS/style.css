@@ -57,6 +57,10 @@ body {
   font-size: 26px;
 }
 
+fieldset {
+  border: none;
+}
+
 /* Input wrapper */
 .input-box {
   position: relative;
