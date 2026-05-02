@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #111;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Parallax Section (Desktop) */
+.parallax {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: 700;
+  text-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+.p1 { background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470'); }
+.p2 { background-image: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee'); }
+.p3 { background-image: url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429'); }
+
+/* Content Sections */
+.content {
+  padding: 80px 15%;
+  background: #181818;
+  font-size: 1.2rem;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+/* ------------------------------
+   MOBILE FIX
+   Disable background-attachment: fixed
+   ------------------------------ */
+@media (max-width: 768px) {
+  .parallax {
+    background-attachment: scroll;
+    height: 60vh;
+    font-size: 2.2rem;
+  }
+
+  .content {
+    padding: 50px 10%;
+    font-size: 1rem;
+  }
+
+  .content h2 {
+    font-size: 1.8rem;
+  }
+}
